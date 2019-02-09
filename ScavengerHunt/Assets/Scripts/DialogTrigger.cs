@@ -24,6 +24,11 @@ public class DialogTrigger : MonoBehaviour
         {
             TriggerDialog();
         }
+        
+        if (Vector3.Distance(player.transform.position, transform.position) > 20f)
+        {
+            FindObjectOfType<DialogManager>().DisplayNextSentence();
+        }
     }
 
  
