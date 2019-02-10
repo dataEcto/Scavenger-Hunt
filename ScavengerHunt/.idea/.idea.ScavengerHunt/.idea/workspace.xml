@@ -121,15 +121,23 @@
       <option name="presentableId" value="Default" />
       <updated>1549689269247</updated>
       <workItem from="1549689290162" duration="80000" />
+<<<<<<< Updated upstream
       <workItem from="1549730786541" duration="5551000" />
       <workItem from="1549756441236" duration="37000" />
       <workItem from="1549757648909" duration="36000" />
       <workItem from="1549759887182" duration="10000" />
+=======
+      <workItem from="1549730786541" duration="5625000" />
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
     <option name="totallyTimeSpent" value="5714000" />
+=======
+    <option name="totallyTimeSpent" value="5705000" />
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -141,7 +149,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
