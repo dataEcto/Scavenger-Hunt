@@ -13,28 +13,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
+            <state relative-caret-position="208">
               <caret line="15" selection-start-line="15" selection-end-line="15" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogManager.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="583">
-              <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
-              <folding>
-                <marker date="1549737199563" expanded="true" signature="6:91" ph="..." />
-                <marker date="1549737199563" expanded="true" signature="135:1110" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="182:347" ph="/* Like an Array, but Queue uses FIFO ... */" />
-                <marker date="1549737199563" expanded="true" signature="402:455" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="500:751" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="635:696" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="790:1034" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="830:895" ph="{...}" />
-                <marker date="1549737199563" expanded="true" signature="1063:1108" ph="{...}" />
-              </folding>
+            <state relative-caret-position="560">
+              <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -42,16 +31,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="73">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+            <state relative-caret-position="864">
+              <caret line="94" selection-start-line="94" selection-end-line="94" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
               <folding>
-                <marker date="1549735726381" expanded="false" signature="6:78" ph="..." />
-                <marker date="1549735726381" expanded="true" signature="122:725" ph="{...}" />
-                <marker date="1549735726381" expanded="true" signature="213:288" ph="{...}" />
-                <marker date="1549735726381" expanded="true" signature="313:370" ph="{...}" />
-                <marker date="1549735726381" expanded="true" signature="396:720" ph="{...}" />
-                <marker date="1549735726381" expanded="true" signature="484:533" ph="{...}" />
-                <marker date="1549735726381" expanded="true" signature="625:714" ph="{...}" />
+                <element signature="e#0#78#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -63,9 +54,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -75,7 +66,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="170" />
     <option name="y" value="91" />
     <option name="width" value="1026" />
@@ -131,11 +122,14 @@
       <updated>1549689269247</updated>
       <workItem from="1549689290162" duration="80000" />
       <workItem from="1549730786541" duration="5551000" />
+      <workItem from="1549756441236" duration="37000" />
+      <workItem from="1549757648909" duration="36000" />
+      <workItem from="1549759887182" duration="10000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5631000" />
+    <option name="totallyTimeSpent" value="5714000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -147,15 +141,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
-      <window_info anchor="bottom" id="Unity" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -171,6 +163,7 @@
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
       <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Unity" order="15" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -198,41 +191,30 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Dialog.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
+        <state relative-caret-position="208">
           <caret line="15" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="73">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <marker date="1549735726381" expanded="false" signature="6:78" ph="..." />
-            <marker date="1549735726381" expanded="true" signature="122:725" ph="{...}" />
-            <marker date="1549735726381" expanded="true" signature="213:288" ph="{...}" />
-            <marker date="1549735726381" expanded="true" signature="313:370" ph="{...}" />
-            <marker date="1549735726381" expanded="true" signature="396:720" ph="{...}" />
-            <marker date="1549735726381" expanded="true" signature="484:533" ph="{...}" />
-            <marker date="1549735726381" expanded="true" signature="625:714" ph="{...}" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogManager.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="38" column="19" lean-forward="true" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        <state relative-caret-position="560">
+          <caret line="38" column="19" selection-start-line="38" selection-start-column="19" selection-end-line="38" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/DialogTrigger.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="94" selection-start-line="94" selection-end-line="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
           <folding>
-            <marker date="1549737199563" expanded="true" signature="6:91" ph="..." />
-            <marker date="1549737199563" expanded="true" signature="135:1110" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="182:347" ph="/* Like an Array, but Queue uses FIFO ... */" />
-            <marker date="1549737199563" expanded="true" signature="402:455" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="500:751" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="635:696" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="790:1034" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="830:895" ph="{...}" />
-            <marker date="1549737199563" expanded="true" signature="1063:1108" ph="{...}" />
+            <element signature="e#0#78#0" expanded="true" />
           </folding>
         </state>
       </provider>

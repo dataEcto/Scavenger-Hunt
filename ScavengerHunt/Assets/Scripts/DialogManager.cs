@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
 {
 
     public TextMeshProUGUI dialogText;
+
     //Like an Array, but Queue uses FIFO
     //Think in Homestuck: John's Inventory was First in, First Out
     //It was limited, but it fits for what I am trying to do.
@@ -34,6 +35,8 @@ public class DialogManager : MonoBehaviour
 
     public void DisplayNextSentence()
     {
+		//End dialogue if there are no sentences left
+		//This is somewhat of an artifact method though-The dialogue box is always active anyway.
         if (sentences.Count == 0)
         {
             EndDialog();
@@ -41,10 +44,24 @@ public class DialogManager : MonoBehaviour
         }
 
         string sentence = sentences.Dequeue();
+
+		
+		//Displays the sentence in game while typing it
+		StartCoroutine(TypeSentence(sentence));
         
-        //Displays the sentence in game
-        dialogText.text = sentence;
+  
+      
     }
+
+	IEnumerator TypeSentence (string sentence)
+	{
+		dialogText.text = "";
+		foreach (char letter in sentence.ToCharArray())
+		{
+			dialogText.text += letter;
+			yield return null;
+		}
+	}
 
     public void EndDialog()
     {
