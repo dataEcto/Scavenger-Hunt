@@ -9,7 +9,10 @@ public class DialogTrigger : MonoBehaviour
 	public GameObject gun;
 	public GameObject radio;
 	public GameObject snake;
-	
+    public AudioSource playerMusic;
+    public AudioClip alertMusic;
+
+
 	//This bool will help in making sure DisplayNextSentence is not spammed
 	//in update.
 	//This will start as false, which will allow DisplayNextSentence to run
@@ -21,6 +24,7 @@ public class DialogTrigger : MonoBehaviour
 
 	//Just for a little fun: this bool will make the treasure move away
 	bool isSpotted;
+   
 
 	
 
@@ -37,13 +41,14 @@ public class DialogTrigger : MonoBehaviour
 		landmarkTwo = false;
 		landmarkThree = false;
 		isSpotted = false;
+  
 
 
 	}
 
     public void Update()
     {
-      
+ 
         if (Vector3.Distance(player.transform.position, transform.position) < 5f)
         {
 			if (landmarkOne == false)
@@ -85,22 +90,42 @@ public class DialogTrigger : MonoBehaviour
 				treasure = true;
 			}
 
-			if (Input.GetKey(KeyCode.Space))
-			{
-				FindObjectOfType<DialogManager>().DisplayNextSentence();
-				isSpotted = true;
-			}
+		
 
-			if (isSpotted == true)
-			{
-				snake.transform.Translate(1, 0, 0);
-			}
-		}
+     
+
+        }
+
+        if (Input.GetKeyUp(KeyCode.Space) && treasure == true)
+        {
+            FindObjectOfType<DialogManager>().DisplayNextSentence();
+
+            isSpotted = true;
+        }
+
+        if (isSpotted == true)
+        {
+            snake.transform.Translate(0, 0, (1 * Time.deltaTime )* 7) ;
+            if(alertMusic != null)
+            {
+                Debug.Log("Change music"); 
+                changeMusic(alertMusic);
+
+            }
+          
+   
+        }
 
 
 
+    }
+    public void changeMusic(AudioClip music)
+    {
+        playerMusic.Stop();
+        playerMusic.clip = music;
+        playerMusic.Play();
 
-	}
+    }
 
 
 }

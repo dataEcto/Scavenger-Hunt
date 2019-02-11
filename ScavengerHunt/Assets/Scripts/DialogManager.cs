@@ -7,6 +7,7 @@ public class DialogManager : MonoBehaviour
 {
 
     public TextMeshProUGUI dialogText;
+    public AudioSource typing;
 
     //Like an Array, but Queue uses FIFO
     //Think in Homestuck: John's Inventory was First in, First Out
@@ -27,6 +28,7 @@ public class DialogManager : MonoBehaviour
         foreach (string sentence in dialog.sentences)
         {
             sentences.Enqueue(sentence);
+        
         }
         
         DisplayNextSentence();
@@ -60,7 +62,8 @@ public class DialogManager : MonoBehaviour
 		{
 			dialogText.text += letter;
 			yield return null;
-		}
+            typing.Play();
+        }
 	}
 
     public void EndDialog()
